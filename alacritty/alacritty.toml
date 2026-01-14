@@ -1,0 +1,69 @@
+[window]
+# Window title
+title = ""
+# Window dimensions (in characters)
+dimensions = { columns = 80, lines = 24 }
+# Start in maximized mode
+# Opacity of the window decorations (0.0 is fully transparent, 1.0 is opaque)
+opacity = 1.0
+
+[font]
+# Font family
+normal = { family = "Menlo", style = "Regular" }
+# Font size in points
+size = 12.0
+# Bold font family (optional)
+#bold_family = "Menlo Bold"
+# Italic font family (optional)
+#italic_family = "Menlo Italic"
+
+[colors]
+# Primary colors
+[colors.primary]
+foreground = "#d0d0d0"
+background = "#1e1e1e"
+
+# Cursor colors
+[colors.cursor]
+text = "#1e1e1e"
+cursor = "#d0d0d0"
+
+# Selection colors
+[colors.selection]
+text = "#ffffff"
+background = "#555555"
+
+# Normal colors (16 ANSI colors)
+[colors.normal]
+black   = "#1e1e1e"
+red     = "#f44747"
+green   = "#608b4e"
+yellow  = "#dcdcaa"
+blue    = "#569cd6"
+magenta = "#c586c0"
+cyan    = "#4ec9b0"
+white   = "#d0d0d0"
+
+# Bright colors
+[colors.bright]
+black   = "#4d4d4d"
+red     = "#f44747"
+green   = "#608b4e"
+yellow  = "#dcdcaa"
+blue    = "#569cd6"
+magenta = "#c586c0"
+cyan    = "#4ec9b0"
+white   = "#ffffff"
+
+
+
+[scrolling]
+# Scrollback buffer size (in lines)
+history = 100000
+# Smooth scrolling
+multiplier = 1
+
+#[performance]
+# Number of scrollback lines to be rendered at a time
+#rendered_lines = 100
+

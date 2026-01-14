@@ -1,0 +1,9 @@
+{
+	"clangd.path": "/usr/local/opt/llvm/bin/clangd",
+    "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
+
+//	https://github.com/neoclide/coc.nvim/blob/master/doc/coc.txt *around line 530*
+//	"signature.enable": false,
+	"signature.hideOnTextChange": true,
+	"signature.floatConfig": {	"maxHeight": 20	}
+}
